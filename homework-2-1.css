@@ -1,0 +1,174 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header{
+  text-align:center;
+}
+
+
+.cookie{
+  background-color: #194277;
+  padding: 20px;  
+}
+
+.logo{
+	background-image: linear-gradient(45deg,
+	#3695ff 10%, #469dff 10%, 
+	#469dff 25%,#4098ff 25%,
+	#4098ff 40%, #3c8dfe 40%,
+	#3684fe 60%,#3477f1 60%);
+	height:400px;
+}
+
+.heading{
+  width:40%;
+  margin:auto;
+  padding: 50px;
+
+}
+
+
+.photo{
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius:50%;
+  border: 5px solid #589afe;
+}
+
+
+
+.about-me{
+	text-align: center;
+	width: 50%;
+	margin: 40px auto;
+}
+
+.expert-in{
+	background-color: #f1f8ff;
+	width: 1438px;
+	height: 700px;
+	padding: 40px;
+	text-align: center;
+
+}
+
+.center{
+	margin-left: 240px;
+
+}
+
+
+article{
+	width:25%;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	
+}
+
+
+article div{
+	width: 150px;
+	height: 150px;
+	border:1px solid #bac3cc;
+	border-radius: 50%;
+	margin: 0 auto;
+
+}
+
+div img{
+	display: block;
+	margin: 40px auto;
+	}
+
+
+.works{
+	text-align: center;
+	height: 500px;
+}
+
+.work_pict{
+	width: 60%;
+	margin-left: 350px;
+
+
+
+}
+
+.work_pict img{
+	width: 25%;
+	display: block;
+	float: left;
+	margin: 20px;
+
+}
+
+
+.co-op{
+	background-color: #f1f8ff;
+	text-align: center;
+	padding: 40px;
+}
+
+.co-op img{
+	margin: 20px 0;
+	margin-right:40px;
+	width: 100px;
+}
+
+footer{
+	text-align: center;
+	padding: 100px;
+	background-image: linear-gradient(45deg,
+	#3695ff 10%, #469dff 10%, 
+	#469dff 25%,#4098ff 25%,
+	#4098ff 40%, #3c8dfe 40%,
+	#3684fe 60%,#3477f1 60%);
+}
+
+
+
+
+
+
+
+
+
+/*
+
+
+.Prostokąt_1 {
+  background-image: -moz-linear-gradient( 39deg, rgb(54,149,255) 0%, rgb(53,100,252) 100%);
+  background-image: -webkit-linear-gradient( 39deg, rgb(54,149,255) 0%, rgb(53,100,252) 100%);
+  background-image: -ms-linear-gradient( 39deg, rgb(54,149,255) 0%, rgb(53,100,252) 100%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2000px;
+  height: 872px;
+  z-index: 87;
+}
+
+
+
+.Elipsa_2 {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.09;
+  position: absolute;
+  left: 918px;
+  top: 176px;
+  width: 164px;
+  height: 164px;
+  z-index: 97;
+}
+
+
+

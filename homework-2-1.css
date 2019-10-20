@@ -4,13 +4,16 @@ body{
   box-sizing: border-box;
 }
 
+.wrapper{
+	max-width: 1070px
+	margin: 0 auto;
+	width:100%;
 
+}
 
 header{
   text-align:center;
 }
-
-
 
 .cookie{
   background-color: #194277;
@@ -45,7 +48,9 @@ h1{
 	font-weight: lighter;
 	color:#b6d4ff;
 }
+
 .logo{
+	padding-top:50px;
 	background-image: linear-gradient(45deg,
 	#3695ff 10%, #469dff 10%, 
 	#469dff 25%,#4098ff 25%,
@@ -56,11 +61,8 @@ h1{
 
 .heading{
   width:40%;
-  margin:auto;
-  padding: 50px;
-
+  margin: 0 auto;
 }
-
 
 .photo{
   background-color: #fff;
@@ -95,8 +97,6 @@ h2{
 	font-size: 30px;
 }
 
-
-
 .about-me{
 	text-align: center;
 	width: 50%;
@@ -109,12 +109,10 @@ h2{
 	height: 700px;
 	padding: 40px;
 	text-align: center;
-
 }
 
 .center{
 	margin-left: 240px;
-
 }
 
 h3{
@@ -127,8 +125,7 @@ article{
 	width:25%;
 	text-align: center;
 	float: left;
-	padding: 10px;
-	
+	padding: 10px;	
 }
 
 
@@ -138,13 +135,12 @@ article div{
 	border:1px solid #bac3cc;
 	border-radius: 50%;
 	margin: 0 auto;
-
 }
 
 div img{
 	display: block;
 	margin: 40px auto;
-	}
+}
 
 
 .works{
@@ -155,9 +151,6 @@ div img{
 .work_pict{
 	width: 60%;
 	margin-left: 350px;
-
-
-
 }
 
 .work_pict img{
@@ -165,7 +158,6 @@ div img{
 	display: block;
 	float: left;
 	margin: 20px;
-
 }
 
 
@@ -199,7 +191,6 @@ footer span{
 	color: #fff;
 }
 
-
 footer .hire{
 	font-size: 25px;
 	margin-left: 20px;
@@ -207,7 +198,6 @@ footer .hire{
 	border-radius:30px;
 	color:#3695ff;
 }
-
 
 button:hover{
 	background-color: #68a0fe;

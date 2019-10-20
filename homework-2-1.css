@@ -4,13 +4,6 @@ body{
   box-sizing: border-box;
 }
 
-.wrapper{
-	max-width: 1070px
-	margin: 0 auto;
-	width:100%;
-
-}
-
 header{
   text-align:center;
 }
@@ -37,6 +30,16 @@ header{
 	border:0;
 }
 
+.logo{
+	padding-top: 50px;
+	background-image: linear-gradient(45deg,
+	#3695ff 10%, #469dff 10%, 
+	#469dff 25%,#4098ff 25%,
+	#4098ff 40%, #3c8dfe 40%,
+	#3684fe 60%,#3477f1 60%);
+	height:400px;
+}
+
 h1{
 	font-family: 'Lato',sans-serif;
 	text-transform:  uppercase;
@@ -47,21 +50,6 @@ h1{
 	font-family: "Lato";
 	font-weight: lighter;
 	color:#b6d4ff;
-}
-
-.logo{
-	padding-top:50px;
-	background-image: linear-gradient(45deg,
-	#3695ff 10%, #469dff 10%, 
-	#469dff 25%,#4098ff 25%,
-	#4098ff 40%, #3c8dfe 40%,
-	#3684fe 60%,#3477f1 60%);
-	height:400px;
-}
-
-.heading{
-  width:40%;
-  margin: 0 auto;
 }
 
 .photo{
@@ -128,7 +116,6 @@ article{
 	padding: 10px;	
 }
 
-
 article div{
 	width: 150px;
 	height: 150px;
@@ -141,7 +128,6 @@ div img{
 	display: block;
 	margin: 40px auto;
 }
-
 
 .works{
 	text-align: center;
@@ -159,7 +145,6 @@ div img{
 	float: left;
 	margin: 20px;
 }
-
 
 .co-op{
 	background-color: #f1f8ff;
@@ -183,7 +168,6 @@ footer{
 	#3684fe 60%,#3477f1 60%);
 }
 
-
 footer span{
 	font-family: 'Lato';
 	font-weight: lighter;
@@ -204,6 +188,12 @@ button:hover{
 	color:#fff;
 }
 
+
+.wrapper{
+	max-width: 1070px
+	margin: 0 auto;
+	width:100%;
+}
 
 
 

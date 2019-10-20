@@ -4,7 +4,7 @@ body{
   box-sizing: border-box;
 }
 
-header{
+.header{
   text-align:center;
 }
 
@@ -13,17 +13,17 @@ header{
   padding: 20px;  
 }
 
-.cookie span{
+.cookie .label{
 	font-family:'Lato';
 	color:#fff;
 }
 
-.cookie button{
+.cookie .f_but{
 	font-family: 'Lato';
 	font-weight: bold;
 	color: #194277;
 	background-color: #fff;
-	width: 100px;
+	width: 10%;
 	padding:5px;
 	margin-left: 30px;
 	border-radius: 20px;
@@ -31,22 +31,22 @@ header{
 }
 
 .logo{
-	padding-top: 50px;
+	padding: 150px;
 	background-image: linear-gradient(45deg,
 	#3695ff 10%, #469dff 10%, 
 	#469dff 25%,#4098ff 25%,
 	#4098ff 40%, #3c8dfe 40%,
 	#3684fe 60%,#3477f1 60%);
-	height:400px;
+
 }
 
-h1{
+.main_heading{
 	font-family: 'Lato',sans-serif;
 	text-transform:  uppercase;
 	color: #fff;
 }
 
-.heading p{
+.heading .main_p{
 	font-family: "Lato";
 	font-weight: lighter;
 	color:#b6d4ff;
@@ -66,19 +66,20 @@ h1{
 	font-weight: bold;
 	color: #194277;
 	background-color: #fff;
-	width: 150px;
+	width: 15%;
 	padding:10px;
+	margin-top: 20px;
 	border-radius: 20px;
 	border: 0;
 }
 
-main p{
+.main p{
 	color:#838383;
 	font-family: 'Lato';
 	font-weight: lighter;
 }
 
-h2{
+.mid_heading{
 	color:#68a0fe;
 	font-family: 'Lato';
 	font-weight: lighter;
@@ -91,9 +92,12 @@ h2{
 	margin: 40px auto;
 }
 
+.about-me p{
+	margin: 50px;
+}
+
 .expert-in{
 	background-color: #f1f8ff;
-	width: 1438px;
 	height: 700px;
 	padding: 40px;
 	text-align: center;
@@ -103,35 +107,31 @@ h2{
 	margin-left: 240px;
 }
 
-h3{
+.low_heading{
 	font-family: 'Lato';
 	color:#3677fd;
 	text-transform: uppercase;
 }
 
-article{
+.article{
 	width:25%;
 	text-align: center;
 	float: left;
 	padding: 10px;	
 }
 
-article div{
-	width: 150px;
-	height: 150px;
+.article div{
+	width: 20%;
 	border:1px solid #bac3cc;
 	border-radius: 50%;
 	margin: 0 auto;
 }
 
-div img{
-	display: block;
-	margin: 40px auto;
-}
+
 
 .works{
 	text-align: center;
-	height: 500px;
+	padding: 50px;
 }
 
 .work_pict{
@@ -155,10 +155,10 @@ div img{
 .co-op img{
 	margin: 20px 0;
 	margin-right:50px;
-	width: 150px;
+	width: 10%;
 }
 
-footer{
+.footer{
 	text-align: center;
 	padding: 100px;
 	background-image: linear-gradient(45deg,
@@ -168,26 +168,25 @@ footer{
 	#3684fe 60%,#3477f1 60%);
 }
 
-footer span{
+.footer span{
 	font-family: 'Lato';
 	font-weight: lighter;
 	font-size: 50px;
 	color: #fff;
 }
 
-footer .hire{
+.footer .hire{
 	font-size: 25px;
 	margin-left: 20px;
-	width:200px;
+	width:25%;
 	border-radius:30px;
 	color:#3695ff;
 }
 
-button:hover{
+.hire:hover,button:hover{
 	background-color: #68a0fe;
 	color:#fff;
 }
-
 
 .wrapper{
 	max-width: 1070px

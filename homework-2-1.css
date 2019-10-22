@@ -1,7 +1,12 @@
 body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+.wrapper{
+	max-width: 1070px
+	margin: 0 auto;
+	width:100%;
 }
 
 .header{
@@ -31,18 +36,18 @@ body{
 }
 
 .logo{
-	padding: 150px;
+	padding: 100px;
 	background-image: linear-gradient(45deg,
 	#3695ff 10%, #469dff 10%, 
 	#469dff 25%,#4098ff 25%,
 	#4098ff 40%, #3c8dfe 40%,
 	#3684fe 60%,#3477f1 60%);
-
 }
 
 .main_heading{
 	font-family: 'Lato',sans-serif;
 	text-transform:  uppercase;
+	text-align: center;
 	color: #fff;
 }
 
@@ -54,7 +59,7 @@ body{
 
 .photo{
   background-color: #fff;
-  width: 100px;
+  width:100px;
   height: 100px;
   margin: 0 auto;
   border-radius:50%;
@@ -67,6 +72,7 @@ body{
 	color: #194277;
 	background-color: #fff;
 	width: 15%;
+	font-size: 16px;
 	padding:10px;
 	margin-top: 20px;
 	border-radius: 20px;
@@ -84,6 +90,7 @@ body{
 	font-family: 'Lato';
 	font-weight: lighter;
 	font-size: 30px;
+	text-align: center;
 }
 
 .about-me{
@@ -98,52 +105,41 @@ body{
 
 .expert-in{
 	background-color: #f1f8ff;
-	height: 700px;
-	padding: 40px;
-	text-align: center;
-}
-
-.center{
-	margin-left: 240px;
 }
 
 .low_heading{
 	font-family: 'Lato';
 	color:#3677fd;
 	text-transform: uppercase;
+	text-align: center;
+}
+
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .article{
-	width:25%;
 	text-align: center;
-	float: left;
-	padding: 10px;	
+	flex: 25%;
+	padding: 20px;
 }
 
 .article div{
-	width: 20%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
 	border:1px solid #bac3cc;
 	border-radius: 50%;
 	margin: 0 auto;
 }
 
-
-
-.works{
-	text-align: center;
-	padding: 50px;
-}
-
-.work_pict{
-	width: 60%;
-	margin-left: 350px;
-}
-
 .work_pict img{
-	width: 25%;
-	display: block;
-	float: left;
-	margin: 20px;
+	flex:25%;
+	padding: 20px;	
 }
 
 .co-op{
@@ -178,21 +174,20 @@ body{
 .footer .hire{
 	font-size: 25px;
 	margin-left: 20px;
-	width:25%;
+	width:20%;
 	border-radius:30px;
 	color:#3695ff;
 }
 
-.hire:hover,button:hover{
-	background-color: #68a0fe;
+.f_but:hover,
+.hire:hover{
 	color:#fff;
+	background-color: #4098ff;
 }
 
-.wrapper{
-	max-width: 1070px
-	margin: 0 auto;
-	width:100%;
-}
+
+
+
 
 
 

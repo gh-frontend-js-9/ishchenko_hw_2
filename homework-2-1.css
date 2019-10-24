@@ -130,6 +130,9 @@ body{
 }
 
 .article div{
+	
+	background-repeat: no-repeat;
+	background-position: center;
 	display: flex;
 	justify-content: center;
 	-ms-align-items: center;
@@ -139,6 +142,30 @@ body{
 	border:1px solid #bac3cc;
 	border-radius: 50%;
 	margin:0 auto;
+}
+
+.img1{
+	background-image: url(img_expert/mobileapp.jpg);
+}
+
+.img2{
+	background-image: url(img_expert/webdes.jpg);
+}
+
+.img3{
+	background-image: url(img_expert/webdev.jpg);
+}
+
+.img4{
+	background-image: url(img_expert/product-design.jpg);
+}
+
+.img5{
+	background-image: url(img_expert/ui.jpg);
+}
+
+.img6{
+	background-image: url(img_expert/animation.jpg);
 }
 
 .works{
